@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html id="home" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <!--[if lt IE 9]>
+    <script src="scripts/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Start Header -->
+
+    <header class="main">
+        <h1>Html5 Course</h1>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Navigation -->
+
+    <nav class="main">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- End Navigation -->
+
+    <!-- Start Main -->
+
+    <main>
+        <p>Welcome To Our <span><mark>Html5 Course</mark></span> From Maher Emad</p>
+    </main>
+
+    <!-- End Main -->
+
+    <!-- Start Article -->
+
+    <div class="articles">
+        <article class="main">
+            <header>
+                <h3>Article #01 Using &lt;progress&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <p>This Is Article Content Number #01</p>
+                <span>Design: </span><progress min="0" value=".6" max="1"></progress><br>
+                <span>Coding: </span><progress min="0" value=".95" max="1"></progress>
+            </section>
+        </article>
+
+        <article class="main">
+            <header>
+                <h3>Article #02 Using &lt;details&gt; and &lt;summary&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <p>This Is Article Content Number #02</p>
+                <details>
+                    <summary>References</summary>
+                    <ul>
+                        <li><a href="#">Ref 1</a></li>
+                        <li><a href="#">Ref 2</a></li>
+                        <li><a href="#">Ref 3</a></li>
+                    </ul>
+                </details>
+            </section>
+        </article>
+
+        <article class="main">
+            <header>
+                <h3>Article #03 Using &lt;wbr&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <p>This Is Article Content Number #03</p>
+                <div class="long-link">
+                    http://<wbr>www.google.com/</wbr><wbr>MaherEmad</wbr><wbr>SalehElmashharawi</wbr>
+                </div>
+            </section>
+        </article>
+        <article class="main">
+            <header>
+                <h3>Article #04 Using &lt;code&gt; Inside &lt;figure&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <p>This Code Describe The Div Syntax</p>
+                <figure><br>
+                    <figcaption>This Is Syntax Of Div</figcaption>
+                    <code>&lt;div&gt;This Is Normal Div&lt;/div&gt;</code>
+                </figure>
+            </section>
+        </article>
+        <article class="main">
+            <header>
+                <h3>Article #05 Using &lt;img&gt; Inside &lt;figure&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <figure>
+                    <figcaption>This Code Describe The Images Inside Figure</figcaption>
+                    <img src="images/1.jpg" alt="">
+                    <img src="images/2.jpg" alt="">
+                    <img src="images/3.jpg" alt="">
+                </figure>
+            </section>
+        </article>
+        <article class="main">
+            <header>
+                <h3>Article #06 Using &lt;dialog&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <input type="button" value="Show The Dialog" id="show-dialog">
+                <dialog id="mydialog">Here The Dialog</dialog>
+            </section>
+        </article>
+        <article class="main">
+            <header>
+                <h3>Article #06 Using &lt;video&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <video controls width="320" height="300" loop poster="images/Snapchat-547725467.jpg" preload="auto">
+                    <source src="video/realxation.mp4" type="video/mp4">
+                    <source src="video/realxation.mp4" type="video/ogg">
+                    <source src="video/realxation.mp4" type="video/webm">
+                    Your Browser Doesn't Support The video Technology
+                </video>
+            </section>
+        </article>
+        <article class="main">
+            <header>
+                <h3>Article #06 Using &lt;color&gt;, &lt;range&gt; and &lt;number&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <p>New Input Field</p>
+                <form>
+                    <label>Color</label>
+                    <input type="color" value="#0000ff" name="theme">
+                    <label>Range</label>
+                    <input type="range" min="0" max="10" value="4" step="2">
+                    <label>Number</label>
+                    <input type="number" min="0" max="10" value="4" step="2">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Type Your Email">
+                    <label>Search</label>
+                    <input type="search" name="search" placeholder="To Search Here">
+                    <label>URL</label>
+                    <input type="url" name="url" placeholder="Type Your Link Here">
+                    <label>Telephone</label>
+                    <input type="tel" name="telephone" placeholder="Type Your Telephone Here">
+                    <label>Time</label>
+                    <input type="time" name="time">
+                    <label>Time And Date</label>
+                    <input type="datetime-local" name="datetime">
+                    <label>Date</label>
+                    <input type="date" name="date">
+                    <label>Month</label>
+                    <input type="month" name="month">
+                    <label>Week</label>
+                    <input type="week" name="week">
+                    <input type="submit" value="Send">
+                </form>
+            </section>
+        </article>
+        <article class="main">
+            <header>
+                <h3>Article #06 Using &lt;color&gt;, &lt;range&gt; and &lt;number&gt;</h3>
+                <p>Created By <span>Maher Emad</span> On <time datetime="Feb 9th, 2020 23:17">Feb 9th, 2020</time></p>
+            </header>
+            <section>
+                <p>New Attrributes In Form Input</p><br>
+                <form id="main-form" action="info.js" method="GET">
+                    <input type="text" name="username" placeholder="Type Your Username" autocomplete="off" autofocus>
+                    <input type="email" name="email" placeholder="Type Your Email" multiple required>
+                    <input type="submit" value="Send">
+                    <input type="submit" value="Other Send" formaction="fullinformation.js" formmethod="POST" formenctype="application/x-www-form-urlencoded">
+                    <input type="text" name="pattern" pattern="[A-Za-z]{6}" placeholder="Type Your Pattern">
+                    <input type="text" name="readOnly" value="Mahre Emad" readonly>
+                    <input type="text" name="disabled" value="Here Disabled" disabled>
+                </form>
+                <input type="submit" formnovalidate value="Send Without Validate" form='main-form'>
+                <input type="submit" formnovalidate value="Send In A New Window" form='main-form' formtarget="_blank">
+            </section>
+        </article>
+    </div>
+
+    <!-- End Article -->
+
+    <!-- Start Aside -->
+
+    <aside class="main">
+        <section>
+            <h3>Categories</h3>
+            <ul>
+                <li>Intro</li>
+                <li>Semantics</li>
+                <li>API's</li>
+                <li>New Elements</li>
+                <li>New Attributes</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Performance</h3>
+            <div>
+                <span>CPU: </span>
+                <meter min="0" value=".5" max="1" low=".4" optimum="0.8" high="1">
+                </meter>
+            </div>
+        </section>
+        <section>
+            <h3>Top Member</h3>
+            <ul>
+                <li><bdi>ماهر</bdi>: 500 Points</li>
+                <li>Ahmed: 390 Points</li>
+                <li>Alaa: 2400 Points</li>
+                <li>Doaa: 1600 Points</li>
+                <li><bdi>محمد</bdi>: 160 Points</li>
+            </ul>
+        </section>
+        <section>
+            <h3>What's Your Best Browser?</h3>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Chorme">
+                <option value="FirFox">
+                <option value="Opera">
+                <option value="Safari">
+                <option value="IE">
+                <option value="Weby">
+                <option value="Opacity">
+                <option value="Same">
+            </datalist>
+            <input type="submit" value="Choose">
+        </section>
+        <section>
+            <h3>Calculate Your Age In Days!!!</h3>
+            <form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' In Days'">
+                <input type="text" name="age">
+                <input type="hidden" name="days" value="365">
+                <output name="result"></output>
+            </form>
+        </section>
+        <section>
+            <h3>Today's Audio</h3>
+            <audio controls autoplay loop preload="auto">
+                <source src="music/Soft Ambient Track - Relaxing Travel _ Relax Positive Background Music.mp3" type="audio/mpeg">
+                <source src="music/Soft Ambient Track - Relaxing Travel _ Relax Positive Background Music.mp3" type="audio/ogg">
+                Your Browser Doesn't Support The Audio Technology
+            </audio>
+        </section>
+    </aside>
+
+    <!-- End Aside -->
+
+    <div class="clearfix"></div>
+
+    <!-- Start Footer -->
+
+    <footer>
+        <p>Copyrights 2020 &copy; All Rights Reserved</p>
+    </footer>
+
+    <!-- End Footer -->
+
+    <script src="scripts/index.js"></script>
+</body>
+
+
+</html>
